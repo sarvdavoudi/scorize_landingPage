@@ -60,7 +60,7 @@ export default function SearchBox() {
               value={country}
               onChange={handleCountryChange}
               placeholder="کشور مورد نظر"
-              className="p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
+              className="text-secondary-color p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
             >
               <option value="">کشور مورد نظر</option>
               <option value="iran">ایران</option>
@@ -71,7 +71,7 @@ export default function SearchBox() {
               value={educationLevel}
               onChange={handleEducationLevelChange}
               placeholder="مقاطع مورد نظر"
-              className="p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
+              className="text-secondary-color  p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
             >
               <option value="">مقاطع مورد نظر</option>
               <option value="bachelor">لیسانس</option>
@@ -82,7 +82,7 @@ export default function SearchBox() {
               value={field}
               onChange={handleFieldChange}
               placeholder="رشته مورد نظر"
-              className="p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
+              className="text-secondary-color p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
             >
               <option value="">رشته مورد نظر</option>
               <option value="engineering">مهندسی</option>
@@ -122,7 +122,7 @@ export default function SearchBox() {
               value={country}
               onChange={handleCountryChange}
               placeholder="کشور مورد نظر"
-              className="p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
+              className="text-secondary-color p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
             >
               <option value="">کشور مورد نظر</option>
               <option value="iran">ایران</option>
@@ -133,7 +133,7 @@ export default function SearchBox() {
               value={educationLevel}
               onChange={handleEducationLevelChange}
               placeholder="روش سرمایه گذاری"
-              className="p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
+              className="text-secondary-color p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
             >
               <option value="">روش سرمایه گذاری</option>
               <option value="">بورس</option>
@@ -144,7 +144,7 @@ export default function SearchBox() {
               value={field}
               onChange={handleFieldChange}
               placeholder="ارز مورد نظر"
-              className="p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
+              className="text-secondary-color p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
             >
               <option value="">ارز مورد نظر</option>
               <option value="">یوهان</option>
@@ -183,7 +183,7 @@ export default function SearchBox() {
               value={country}
               onChange={handleCountryChange}
               placeholder="کشور مورد نظر"
-              className="p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
+              className="text-secondary-color p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
             >
               <option value="">کشور مورد نظر</option>
               <option value="iran">ایران</option>
@@ -194,7 +194,7 @@ export default function SearchBox() {
               value={educationLevel}
               onChange={handleEducationLevelChange}
               placeholder="حرفه مورد نظر"
-              className="p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
+              className="text-secondary-color p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
             >
               <option value="">حرفه مورد نظر</option>
               <option value="">مهندسی</option>
@@ -205,7 +205,7 @@ export default function SearchBox() {
               value={field}
               onChange={handleFieldChange}
               placeholder="روش مورد نظر"
-              className="p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
+              className="text-secondary-color p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
             >
               <option value="">روش مورد نظر</option>
               <option value="">تمام وقت</option>
@@ -244,7 +244,7 @@ export default function SearchBox() {
               value={country}
               onChange={handleCountryChange}
               placeholder="کشور مورد نظر"
-              className="p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
+              className="text-secondary-color p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
             >
               <option value="">کشور مورد نظر</option>
               <option value="iran">ایران</option>
@@ -255,7 +255,7 @@ export default function SearchBox() {
               value={educationLevel}
               onChange={handleEducationLevelChange}
               placeholder="وقت مورد نظر"
-              className="p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
+              className="text-secondary-color p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
             >
               <option value="">وقت مورد نظر</option>
               <option value="">وقت1</option>
@@ -266,7 +266,7 @@ export default function SearchBox() {
               value={field}
               onChange={handleFieldChange}
               placeholder="سفارش مورد نظر"
-              className="p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
+              className="text-secondary-color p-2  border-b  focus:text-primary-color focus:border-primary-color  mb-2 md:mr-2 md:mb-0 sm:w-full md:w-auto"
             >
               <option value="">سفارش مورد نظر</option>
               <option value="">سفارش1</option>

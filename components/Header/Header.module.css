@@ -14,17 +14,6 @@
     flex-grow: 2
 }
 
-.signinButton{
-    display: flex;
-    background-color:#93215F ;
-    color: rgb(255, 255, 255);
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-   
-}
 
 .hamburger {
   display: flex;
@@ -48,12 +37,12 @@
   list-style: none;
   padding: 0;
   display: none;
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color); */
 }
 
 .menu.open {
   display: block;
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color); */
 }
 
 @media (min-width: 768px) {

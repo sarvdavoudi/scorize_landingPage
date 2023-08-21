@@ -18,7 +18,7 @@ export default function Home() {
         <main>
           <div className={styles.mainContainer}>
             <div>
-              <button className={`${styles.btn} bg-primary-color rounded p-3 flex `}>
+              <button className={`text-tertiary-color bg-primary-color rounded p-3 flex mt-32 `}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"

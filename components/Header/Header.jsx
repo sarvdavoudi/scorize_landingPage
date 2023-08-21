@@ -20,9 +20,9 @@ const Header = () => {
       <ul className={`${styles.menu} ${isOpen ? styles.open : ""}`}>
      
         <li className={`${styles.li} `}>
-          <Image src={logoImageEnglish} className="w-32 h-10 pr-8"></Image>
+          <Image src={logoImageEnglish} className="w-24 h-10 "></Image>
         </li>
-        <li className={`${styles.li} pr-16 border-r-2 h-8 border-transparent border-primary-color  `}>
+        <li className={`${styles.li} pr-3 border-r-2 h-8 border-transparent border-primary-color  `}>
           <a href="">رزرو مشاوره</a>
         </li>
 
@@ -77,7 +77,7 @@ const Header = () => {
         </li>
 
         <li className={styles.li}>
-          <button className={styles.signinButton}>
+          <button className="bg-primary-color text-tertiary-color rounded-xl pt-3 pb-3 pl-4 pr-4 flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"

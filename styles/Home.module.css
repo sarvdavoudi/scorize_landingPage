@@ -1,0 +1,29 @@
+
+.container {
+  padding: 0 2rem;
+}
+
+
+.mainContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: 10px;
+    justify-items: center;
+    /* margin: 0 auto; */
+    padding: 0 70px;
+    margin-bottom: 1px;
+}
+.bannerImage{
+  width: 100%;
+}
+
+
+.h1{
+
+  margin-bottom: 3rem;
+}
+
+.btn{
+  margin-top: 100px;
+  color: white;
+}

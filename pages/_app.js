@@ -1,7 +1,7 @@
 // import '../styles/reset.css'
 import '../styles/globals.css'
 import '../styles/fonts.css'
-import '../configs/theme'
+import '../styles/theme.css'
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
 }

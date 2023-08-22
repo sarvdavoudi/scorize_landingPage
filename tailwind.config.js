@@ -11,9 +11,9 @@ module.exports = {
   theme: {
     extend: {},
     colors: {
-      "primary-color": "#93215F",
-      "secondary-color": "#cccacb",
-      "tertiary-color": "#ffffff",
+      "primary-color": "#93215F", //purpule
+      "secondary-color": "#cccacb", //gray
+      "tertiary-color": "#ffffff", //white
     },
   },
   plugins: [],

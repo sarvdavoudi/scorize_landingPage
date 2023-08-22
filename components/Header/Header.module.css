@@ -3,10 +3,10 @@
 }
 
 .menu li a {
-  color: #a8a1a5;
+  color: var(--secondary-color);
 }
 .menu li a:hover {
-  color: #93215f;
+  color: var(--primary-color);
   text-decoration: underline;
 }
 
@@ -37,12 +37,12 @@
   list-style: none;
   padding: 0;
   display: none;
-  /* background-color: var(--secondary-color); */
+  background-color: var(--secondary-color);
 }
 
 .menu.open {
   display: block;
-  /* background-color: var(--secondary-color); */
+  background-color: var(--secondary-color);
 }
 
 @media (min-width: 768px) {

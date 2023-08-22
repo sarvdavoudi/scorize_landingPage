@@ -3,11 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* global.css */
-:root {
-  --primary-color: "#93215F";
-  --secondary-color: "gray";
-}
 
 * {
   box-sizing: border-box;

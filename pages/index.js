@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
-import banner_image from "../picture/banner.png";
+import banner_image from "../public/picture/banner.png";
 import SearchBox from "../components/SearchBox/SearchBox";
 import Layout from "../container/Layout";
 

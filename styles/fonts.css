@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'vazir';
-    src: url('/public/fonts/vazir-font/Vazir-Light.ttf') format('truetype');
+    src: url('/public/fonts/vazir-font/Vazir-Bold.woff2') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    font-family: 'vazir', sans-serif;
+    font-family: 'vazir';
 }

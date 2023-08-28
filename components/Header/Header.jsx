@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Header.module.css";
-import logoImageEnglish from "../../picture/ScorizeLogo.png";
+import logoImageEnglish from "../../public/picture/ScorizeLogo.png";
 import Image from "next/image";
 
 const Header = () => {

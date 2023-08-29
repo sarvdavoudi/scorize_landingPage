@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Mikhak;
+    src: url("../public/fonts/Mikhak/Mikhak.ttf");
+}
+
+
+body{
+    font-family: mikhak;
+}

@@ -1,13 +1,16 @@
 .menu li {
   margin: 10px;
+  
 }
 
 .menu li a {
-  color: var(--secondary-color);
+  color: black;
 }
 .menu li a:hover {
   color: var(--primary-color);
   text-decoration: underline;
+  text-underline-offset: 2em;
+  text-decoration-thickness: 3px;
 }
 
 .li{
@@ -37,12 +40,11 @@
   list-style: none;
   padding: 0;
   display: none;
-  background-color: var(--secondary-color);
+  
 }
 
 .menu.open {
   display: block;
-  background-color: var(--secondary-color);
 }
 
 @media (min-width: 768px) {
@@ -53,7 +55,7 @@
 
   .menu {
     display: flex;
-    background-color: var(--secondary-color);
+    
   }
 }
 

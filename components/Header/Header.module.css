@@ -1,8 +1,8 @@
-.headerItem{
+.menuItem {
     color: var(--secondary-color);
     padding: 20px;
 }
-.headerItem:hover{
+.menuItem:hover{
     color: var(--primary-color);
       text-decoration: underline;
       text-underline-offset: 1.7em;

@@ -18,19 +18,19 @@ const Header = () => {
       {/* menu */}
       <div className="grow ">
         <div className="hidden sm:flex  justify-start gap-2 md:gap-8 ">
-          <Link href="/" className={`${styles.headerItem}   border-r-2  border-primary-color`}>
+          <Link href="/" className={`${styles.menuItem}   border-r-2  border-primary-color`}>
             رزرو مشاوره
           </Link>
-          <Link href="/" className={styles.headerItem}>
+          <Link href="/" className={styles.menuItem}>
             خدمات ما
           </Link>
-          <Link href="/" className={styles.headerItem}>
+          <Link href="/" className={styles.menuItem}>
             موفقیت ها
           </Link>
-          <Link href="/" className={styles.headerItem}>
+          <Link href="/" className={styles.menuItem}>
             بلاگ
           </Link>
-          <Link href="/" className={styles.headerItem}>
+          <Link href="/" className={styles.menuItem}>
             درباره ما
           </Link>
         </div>

@@ -1,0 +1,31 @@
+
+
+.selectedTab{
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    border: solid 1px ;
+    border-color: var(--primary-color);
+    padding: 5px;
+}
+
+.selectedTab:hover{
+    cursor: pointer;
+}
+.selectedTab:focus{
+    outline-style: none;
+}
+
+.defultTab{
+color: var(--primary-color);
+border: solid 1px;
+border-color: var(--primary-color);
+border-radius: 2px;
+padding: 5px;
+
+}
+
+.defultTab:hover{
+    cursor: pointer;
+}
+
+

@@ -1,5 +1,8 @@
 :root {
+    /* purpule */
     --primary-color: #93215F;
-    --secondary-color: #cccacb;
+    /* gray */
+    --secondary-color: #cccacb; 
+     /*white  */
     --tertiary-color: white;
 }

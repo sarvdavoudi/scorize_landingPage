@@ -1,9 +1,10 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/index.module.css";
 import Image from "next/image";
 import banner_image from "../public/picture/banner.png";
 import SearchBox from "../components/SearchBox/SearchBox";
 import Layout from "../container/Layout";
+import PrimaryButton from "../components/PrimaryButton/PrimaryButton";
 
 export default function Home() {
   return (
@@ -16,9 +17,9 @@ export default function Home() {
 
       <Layout>
         <main>
-          <div className={styles.mainContainer}>
-            <div>
-              <button className={`text-tertiary-color bg-primary-color rounded-xl p-3 flex mt-32 `}>
+          <div className={styles.mainDiv}>
+            <div className="content">
+              <PrimaryButton className=" bg-primary-color text-tertiary-color rounded-xl pt-3 pb-3 pl-4 pr-4 flex mt-32 !important">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -35,15 +36,16 @@ export default function Home() {
                   <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
                 </svg>
                 مهاجرت تضمینی
-              </button>
-              <h1 className={styles.h1}>
+              </PrimaryButton>
+              <h1 className="mb-7">
                 مهاجرت تضمینی به خارج از کشور با{" "}
                 <button className=" text-primary-color border border-primary-color rounded-2xl pl-2 pr-2 ">اسکورایز</button>
               </h1>
               <SearchBox />
             </div>
-            <div className="banner">
-              <Image src={banner_image} className={styles.bannerImage}></Image>
+            <div className="image_banner">
+              {/* w-full ===> width:100% */}
+              <Image src={banner_image} className="w-full"></Image>
             </div>
           </div>
         </main>

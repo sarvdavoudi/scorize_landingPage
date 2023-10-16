@@ -5,6 +5,7 @@ import banner_image from "../public/picture/banner.png";
 import SearchBox from "../components/SearchBox/SearchBox";
 import Layout from "../container/Layout";
 import PrimaryButton from "../components/PrimaryButton/PrimaryButton";
+import Space from "../components/Space/Space";
 
 export default function Home() {
   return (
@@ -19,7 +20,8 @@ export default function Home() {
         <main>
           <div className={styles.mainDiv}>
             <div className="content">
-              <PrimaryButton className=" bg-primary-color text-tertiary-color rounded-xl pt-3 pb-3 pl-4 pr-4 flex mt-32 !important">
+              <Space size={"large"}/>
+              <PrimaryButton className=" bg-primary-color text-tertiary-color rounded-xl pt-3 pb-3 pl-4 pr-4 flex  ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"

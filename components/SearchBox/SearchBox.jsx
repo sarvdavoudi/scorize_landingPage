@@ -48,8 +48,8 @@ export default function SearchBox() {
           </Tab>
         </TabList>
 
+        {/* Content for Tab 1 */}
         <TabPanel>
-          {/* Content for Tab 1 */}
           <div className="flex items-center justify-center mt-2 mb-3">
             <select
               value={country}
@@ -91,8 +91,8 @@ export default function SearchBox() {
           </div>
         </TabPanel>
 
+        {/* Content for Tab 2 */}
         <TabPanel>
-          {/* Content for Tab 2 */}
           <div className="flex items-center justify-center mt-2 mb-3">
             <select
               value={country}
@@ -132,8 +132,8 @@ export default function SearchBox() {
           </div>
         </TabPanel>
 
+        {/* Content for Tab 3 */}
         <TabPanel>
-          {/* Content for Tab 3 */}
           <div className="flex items-center justify-center mt-2 mb-3">
             <select
               value={country}
@@ -173,8 +173,8 @@ export default function SearchBox() {
           </div>
         </TabPanel>
 
+        {/* Content for Tab 4 */}
         <TabPanel>
-          {/* Content for Tab 4 */}
           <div className="flex items-center justify-center mt-2 mb-3">
             <select
               value={country}

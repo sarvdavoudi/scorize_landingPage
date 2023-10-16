@@ -17,7 +17,7 @@ const Header = () => {
 
       {/* menu */}
       <div className="grow ">
-        <div className="hidden sm:flex  justify-start gap-2 md:gap-8 ">
+        <div className="hidden sm:flex  justify-start  ">
           <Link href="/" className={`${styles.menuItem}   border-r-2  border-primary-color`}>
             رزرو مشاوره
           </Link>
@@ -73,7 +73,7 @@ const Header = () => {
       </div>
 
       {/* signIn button */}
-      <div className="hidden sm:block">
+      <div className="hidden lg:block md:block">
         <PrimaryButton>
           {" "}
           <svg

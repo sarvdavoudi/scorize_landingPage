@@ -9,11 +9,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
-    colors: {
-      "primary-color": "#93215F", //purpule
-      "secondary-color": "#cccacb", //gray
-      "tertiary-color": "#ffffff", //white
+    extend: {
+      colors: {
+        "primary-color": "#93215F", //purpule
+        "secondary-color": "#cccacb", //gray
+        "tertiary-color": "#ffffff", //white
+      },
     },
   },
   plugins: [],
